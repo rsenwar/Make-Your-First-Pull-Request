@@ -1,8 +1,85 @@
-C 
-C++
-C#
-GoLang
-Java
-Python
-Visual Basic
+(Language-C)
+//hello world in c:
+
+#include<stdio.h>
+int main()
+{
+printf("Hello world");
+return(0);
+}
+
+
+
+
+(Language-C++)
+//hello world in c++
+
+#include <iostream>
+int main() 
+{
+    std::cout << "Hello, World!";
+    return 0;
+}
+
+
+
+
+(Language-C#)
+//Hello world in c#
+
+namespace HelloWorld
+{
+    class Hello {         
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+
+
+
+(Language-GoLang)
+//Hello world in GoLang:
+
+package main
+import "fmt"
+
+	func main() {
+    fmt.Println("hello world")
+}
+
+
+
+
+
+(Language-Java)
+//Hello world in java:
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+}
+
+
+
+
+(Language-Python)
+#Hello world in python:
+
+print("Hello World")
+
+
+
+
+(Language-kotlin)
+//Hello world in kotlin:
+
+fun main(args : Array<String>) {
+    println("Hello, World!")
+}
+
 
