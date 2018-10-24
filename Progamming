@@ -70,7 +70,7 @@ public class HelloWorld {
 (Language-Python)
 #Hello world in python:
 
-print("Hello World")
+print("Hello .World")
 
 
 
