@@ -1,4 +1,4 @@
-(Language-C)
+(Language-C++)
 //hello world in c:
 
 #include<stdio.h>
