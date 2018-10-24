@@ -51,8 +51,11 @@ import "fmt"
 }
 
 
+(Language-PHP)
 
-
+<?php
+echo 'Hello World'
+?>
 
 (Language-Java)
 //Hello world in java:
