@@ -83,3 +83,16 @@ fun main(args : Array<String>) {
 }
 
 
+(language-JavaScript)
+// hello world in JavaScript
+ <!DOCTYPE html>
+<html>
+<body>
+
+<script>
+console.log("Hello World!");
+</script>
+
+</body>
+</html> 
+
