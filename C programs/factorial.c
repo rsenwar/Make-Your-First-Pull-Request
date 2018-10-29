@@ -17,4 +17,5 @@ void main()
         }
     }
     printf("Factorial of %d = %5d\n", num, fact);
+    return 0;
 }
