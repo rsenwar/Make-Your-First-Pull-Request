@@ -1,0 +1,31 @@
+#include<stdio.h>
+int com(char s1[], char s2[]);
+int main()
+{
+   char s1[]="Dhiraj";
+   char s2[]="Kumar";
+   printf("%d\n",com(s1,s2));
+   return 0;
+}
+
+
+int com(char s1[], char s2[])
+{
+   int loc= -1,i,j;
+   for(i=0;i<100;i++)
+      {
+         if(s1[i]=='\0')
+             break;
+       for(j=0;j<100;j++)
+          {
+             if(s2[j]=='\0')
+               break;
+             if(s1[i]==s2[j])
+                {  loc= i;
+                   return loc;
+                 }
+          }
+       }
+   return loc;
+}
+
