@@ -50,7 +50,7 @@ int main()
 			}
 			side--; 
 			if(i == n-2)   
-			    printf("%d",0);  
+			    printf("0");  
 			z = z+1;
 			sum =0;     
         }
