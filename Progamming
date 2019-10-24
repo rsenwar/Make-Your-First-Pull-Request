@@ -73,6 +73,13 @@ public class HelloWorld {
 (Language-Python)
 #Hello world in python:
 
+-----Python 2.x----
+
+print "Hello World"   Or
+print("Hello World")
+
+-----Python 3.x----
+
 print("Hello World")
 
 
