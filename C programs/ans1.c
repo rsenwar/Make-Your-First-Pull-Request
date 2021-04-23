@@ -1,3 +1,4 @@
+//motto = to understand cp
 #include <stdio.h>
 #include <stdlib.h>
 int main()
